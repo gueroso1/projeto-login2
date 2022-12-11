@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+</head>
+<body>
+    <main>
+        <h1>Login</h1>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <p>
+                <label for="usuario"></label>
+                <input type="text" name="usuario" id="usuario" required minlength="5" maxlength="15" size="17" placeholder="Enter Your Username" autocomplete="username">
+            </p>
+            <p>
+                <label for="senha"></label>
+                <input type="password" name="senha" id="senha" required minlength="5" maxlength="15" size="17" placeholder="Enter Your Password" autocomplete="current-password">
+            </p>
+            <p>
+                <input type="submit" value="Continue">
+            </p>
+        </form>
+    </main>
+    <footer>
+        <p>Or Connect With Social Media</p>
+        <a href="#" id="twitter">
+            <i class="fa-brands fa-twitter"></i>
+            Sign in with Twitter
+        </a>
+    </footer>
+</body>
+</html>
