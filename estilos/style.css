@@ -60,6 +60,10 @@ main input::placeholder {
     color: rgba(0, 0, 0, 0.502)
 }
 
+form > p:first-child {
+    margin-bottom: 1.5rem;
+}
+
 form input[type="submit"] {
     width: 100%;
     margin-top: 2rem;
